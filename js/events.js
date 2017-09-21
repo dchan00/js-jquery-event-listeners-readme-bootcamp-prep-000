@@ -19,12 +19,12 @@ function pressIt(){
   })
 }
 
-function submitIt(){
-  $("form").('submit', function(){
-    alert('Your form is going to be submitted now.')
-    return
-  })
-}
+//function submitIt(){
+//  $("form").('submit', function(){
+//    alert('Your form is going to be submitted now.')
+//    return
+//  })
+//}
 
 $(document).ready(function(){
 
@@ -32,6 +32,6 @@ $(document).ready(function(){
   getIt()
   frameIt()
   presIt()
-  submitIt()
+  //submitIt()
 
 });
